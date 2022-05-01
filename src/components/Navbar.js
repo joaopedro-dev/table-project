@@ -9,7 +9,7 @@ function Navbar() {
                 <p className={styles.item_logo}>
                     Table
                 </p>
-                <Image src="/octopus.png" alt="Logo" width={40} height={40} />
+                <Image src="/octopus.png" alt="Logo" width={35} height={35} />
             </div>
 
             <div>

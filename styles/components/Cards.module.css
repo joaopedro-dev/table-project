@@ -27,7 +27,8 @@
   justify-content: center;
   width: 100%;
   background-color: #2f0e31;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .text_phrase {

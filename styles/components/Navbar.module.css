@@ -20,7 +20,7 @@
 }
 
 .item_logo {
-  margin: 0.3rem;
+  margin: 0 0.3rem 0 0.3rem;
   font-family: "Mogra", cursive;
   font-size: 32px;
   font-weight: 400;
