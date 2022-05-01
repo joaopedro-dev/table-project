@@ -1,8 +1,35 @@
-.container{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+.container {
+    background-color: #3F3C3C;
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    width: 15rem;
+    color: #FFFF;
 }
-.item{
-    background-color: aquamarine;
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: #FFFF;
+    font-family: 'Mogra', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
+.item_logo{
+    padding-right: 0.5rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFF;
+    font-family: 'Montserrat', sans-serif;
 }
