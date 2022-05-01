@@ -4,6 +4,7 @@ import Image from 'next/image'
 function Navbar() {
     return (
         <div className={styles.container}>
+
             <div className={styles.logo}>
                 <p className={styles.item_logo}>
                     Table
@@ -11,18 +12,24 @@ function Navbar() {
                 <Image src="/octopus.png" alt="Logo" width={40} height={40} />
             </div>
 
-            <p>Table Consults</p>
-            <div className={styles.item}>
-                <a>Home</a>
-                <a>About us</a> 
+            <div>
+                <p className={styles.title_item}>
+                <Image src="/home.png" alt="Logo" width={14} height={14} />
+                    Table Consults
+                </p>
+                <a className={styles.item}>Home</a>
+                <a className={styles.item}>About us</a>
             </div>
 
-            <p>Ligação</p>
-            <div className={styles.item}>
-                <a>Cliente</a>
-                <a>Terceiro</a>
-                <a>Recado</a>
+            <div>
+                <p className={styles.title_item}>
+                <Image src="/phone.png" alt="Logo" width={14} height={14} />
+                    Ligação
+                </p>
+                <a className={styles.item}>Cliente</a>
+                <a className={styles.item}>Terceiro</a>
             </div>
+
         </div>
     )
 }
