@@ -21,13 +21,16 @@ function Navbar() {
                 <a className={styles.item}>About us</a>
             </div>
 
-            <div>
+            <div>   
+                <div>
                 <p className={styles.title_item}>
                 <Image src="/phone.png" alt="Logo" width={14} height={14} />
                     Ligação
-                </p>
+                </p>  
+                </div>
                 <a className={styles.item}>Cliente</a>
                 <a className={styles.item}>Terceiro</a>
+                <a className={styles.item}>Preventivo</a>
             </div>
 
         </div>

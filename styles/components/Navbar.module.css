@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300&display=swap');
 
 .container {
     background-color: #3F3C3C;
@@ -28,8 +28,8 @@
 }
 
 .title_item{
-    font-size: 18px;
     margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .item {
@@ -38,7 +38,6 @@
     align-items: center;
     flex-direction: column;
     color: #FFFF;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .item:hover{
