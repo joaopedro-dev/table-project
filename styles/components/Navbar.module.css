@@ -1,7 +1,7 @@
 .container{
     background-color: aqua;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 .item{
     background-color: aquamarine;

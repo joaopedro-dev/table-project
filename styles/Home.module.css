@@ -1,12 +1,11 @@
-.container {
-  margin: 0;
+.container{
   display: flex;
+  justify-content: space-between;
 }
 
-.principal{
+.container_dash {
+  margin-right: 10rem;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  align-self: center;
 }
