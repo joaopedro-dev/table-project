@@ -11,9 +11,14 @@ function Navbar() {
                 <Image src="/octopus.png" alt="Logo" width={40} height={40} />
             </div>
 
+            <p>Table Consults</p>
             <div className={styles.item}>
                 <a>Home</a>
-                <a>About us</a>
+                <a>About us</a> 
+            </div>
+
+            <p>Ligação</p>
+            <div className={styles.item}>
                 <a>Cliente</a>
                 <a>Terceiro</a>
                 <a>Recado</a>

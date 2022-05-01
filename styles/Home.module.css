@@ -1,11 +1,6 @@
 .container{
   display: flex;
-  justify-content: space-between;
   background-color: #F2F2F2;
 }
 
-.container_dash { 
-  padding-right:13rem;
-  display: flex;
-  justify-content: center;
-}
+
