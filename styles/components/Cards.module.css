@@ -1,14 +1,15 @@
 .grid {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
+  color: #ffff;
 }
 
 .phrase {
-  color: #ffff;
   margin: 0;
-  width: 30rem;
+  width: 42rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,9 +18,9 @@
   border-radius: 5px;
 }
 
-.title_phrase {
+.title {
   font-family: "Mogra", cursive;
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   margin: 0 0 15px 0;
   padding: 0.8rem 0 0.5rem 0;
@@ -31,10 +32,10 @@
   border-top-right-radius: 5px;
 }
 
-.text_phrase {
+.text {
   margin: 1rem;
   font-family: Roboto;
-  font-size: 28px;
+  font-size: 25px;
   font-style: italic;
   font-weight: 300;
   line-height: 34px;
@@ -44,4 +45,20 @@
 
 .author_phrase{
     margin: 0 0 1rem 0;
+}
+
+.row{
+  padding-top: 10px;
+  display: flex;
+}
+
+.card{
+  background: linear-gradient(225deg, #ff8a00 0%, #8000ff 100%);
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
 }
