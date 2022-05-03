@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   background: linear-gradient(225deg, #ff8a00 0%, #8000ff 100%);
-  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.222);
   border-radius: 5px;
 }
 
@@ -54,11 +54,49 @@
 
 .card{
   background: linear-gradient(225deg, #ff8a00 0%, #8000ff 100%);
-  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.222);
   border-radius: 5px;
   margin: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 20rem;
+}
+
+.phrase:hover{
+  box-shadow: 9px 9px 8px rgba(0, 0, 0, 0.273);
+  transition: box-shadow .3s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover{
+  box-shadow: 9px 9px 8px rgba(0, 0, 0, 0.271);
+  transition: box-shadow .3s ease-in-out;
+  cursor: pointer;
+}
+
+@media (max-width: 840px) {
+  .row {
+    flex-direction: column;
+  }
+  .phrase{
+    width: 30rem;
+  }
+  .card{
+    width: 30rem;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .phrase{
+    width: 20rem;
+  }
+  .card{
+    width: 20rem;
+  }
+  
 }

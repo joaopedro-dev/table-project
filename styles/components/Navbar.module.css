@@ -48,3 +48,9 @@
   box-shadow: -1px 1px 8px rgba(128, 0, 255, 0.578726);
   border-radius: 4px;
 }
+
+@media (max-width: 840px) {
+  .container{ 
+    height: 150vh;
+  }
+}
