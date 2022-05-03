@@ -5,9 +5,13 @@ import Navbar from '../src/components/Navbar'
 export default function Home() {
   return (
         <div className={styles.container}>
+            <p>container</p>
             <div className={styles.grid}>
+                <p>Grid</p>
                 <div className={styles.row}>
+                    <p>Row</p>
                     <div className={styles.card}>
+                        <p>Card</p>
                         <h1 className={styles.title}>Table</h1>
                         <Image src="/octopus.png" alt="Logo" width={35} height={35} />
                         <p className={styles.text}>
