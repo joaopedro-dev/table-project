@@ -16,10 +16,10 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  background: #00B4FF;
+  background: #A970FF;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.222);
   border-radius: 5px;
-  border-top: 40px solid #007EB3;
+  border-top: 45px solid #612BB3;
 }
 
 .text {
@@ -53,12 +53,6 @@
   width: 18rem;
   height: 16rem;
   border-top: 40px solid #BDB940;
-}
-
-.phrase:hover{
-  box-shadow: 9px 9px 8px rgba(0, 0, 0, 0.273);
-  transition: box-shadow .3s ease-in-out;
-  cursor: pointer;
 }
 
 .card:hover{
