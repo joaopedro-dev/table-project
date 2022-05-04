@@ -16,8 +16,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   align-content: center;
   padding: 1rem;
+  cursor: pointer;
 }
 
 .item_logo {
@@ -42,6 +44,7 @@
   align-items: center;
   flex-direction: column;
   color: #ffff;
+  cursor: pointer;
 }
 
 .item:hover {

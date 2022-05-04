@@ -6,10 +6,10 @@ function Navbar() {
         <div className={styles.container}>
 
             <div className={styles.logo}>
+                <Image src="/magic.png" alt="Logo" width={60} height={60} />
                 <p className={styles.item_logo}>
                     Table
                 </p>
-                <Image src="/octopus.png" alt="Logo" width={35} height={35} />
             </div>
 
             <div>

@@ -5,7 +5,7 @@ function Cards(){
     return (
         <div className={styles.grid}>
             <div className={styles.phrase}>
-                <Image src="/product.png" alt="Logo" width={100} height={100} />
+                <Image src="/idea.png" alt="Logo" width={100} height={100} />
                 <p className={styles.text}>
                 “No meio da dificuldade, encontra-se a oportunidade”
                 </p>
@@ -13,7 +13,7 @@ function Cards(){
             </div>
             <div className={styles.row}>
                 <div className={styles.card}>
-                    <Image src="/customer-service.png" alt="Logo" width={85} height={85} />
+                    <Image src="/call-center-1.png" alt="Logo" width={85} height={85} />
                     <p className={styles.text}>Registrar Ligação</p>
                 </div>
                 <div className={styles.card}>

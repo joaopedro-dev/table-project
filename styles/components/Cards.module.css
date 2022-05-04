@@ -62,6 +62,11 @@
   cursor: pointer;
 }
 
+.phrase:hover{
+  box-shadow: 9px 9px 8px rgba(0, 0, 0, 0.271);
+  transition: box-shadow .3s ease-in-out;
+}
+
 @media (max-width: 840px) {
   .row {
     flex-direction: column;
