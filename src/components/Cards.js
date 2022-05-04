@@ -14,11 +14,11 @@ function Cards(){
             <div className={styles.row}>
                 <div className={styles.card}>
                     <Image src="/customer-service.png" alt="Logo" width={85} height={85} />
-                    <p className={styles.text}>Tabular</p>
+                    <p className={styles.text}>Registrar Ligação</p>
                 </div>
                 <div className={styles.card}>
                     <Image src="/mission.png" alt="Logo" width={85} height={85} />
-                    <p className={styles.text}>Manifesto table</p>
+                    <p className={styles.text}>Manifesto Table</p>
                 </div>
             </div>
         </div>
