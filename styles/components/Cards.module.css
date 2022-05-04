@@ -10,7 +10,7 @@
   color: #ffff;
   margin: 0;
   width: 38rem;
-  height: 17rem;
+  height: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,6 +50,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-self: center;
   width: 18rem;
   height: 16rem;
   border-top: 40px solid #BDB940;
