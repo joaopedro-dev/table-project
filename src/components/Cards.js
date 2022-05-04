@@ -5,7 +5,7 @@ function Cards(){
     return (
         <div className={styles.grid}>
             <div className={styles.phrase}>
-                <Image src="/octopus.png" alt="Logo" width={90} height={90} />
+                <Image src="/ideia.png" alt="Logo" width={90} height={90} />
                 <p className={styles.text}>
                 “No meio da dificuldade, esncontra-se a oportunidade”
                 </p>

@@ -4,43 +4,28 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  color: #ffff;
 }
 
 .phrase {
+  color: #ffff;
   margin: 0;
-  width: 42rem;
+  width: 38rem;
   height: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
-  background: linear-gradient(225deg, #ff8a00 0%, #8000ff 100%);
+  background: #00B4FF;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.222);
   border-radius: 5px;
-  border-top: 40px solid #2f0e31;
-}
-
-.title {
-  font-family: "Mogra", cursive;
-  font-size: 18px;
-  display: flex;
-  margin: 0 0 15px 0;
-  padding: 0.8rem 0 0.5rem 0;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  background-color: #2f0e31;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top: 40px solid #007EB3;
 }
 
 .text {
   margin: 1rem;
-  font-family: Roboto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 22px;
-  font-style: italic;
   font-weight: 300;
   line-height: 34px;
   letter-spacing: 0px;
@@ -57,7 +42,7 @@
 }
 
 .card{
-  background: linear-gradient(225deg, #92734F 0%, #8000FF 100%);  
+  background: #FFFA70;  
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.222);
   border-radius: 3px;
   margin: 1rem;
@@ -65,9 +50,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 20rem;
+  width: 18rem;
   height: 16rem;
-  border-top: 40px solid #2f0e31;
+  border-top: 40px solid #BDB940;
 }
 
 .phrase:hover{
