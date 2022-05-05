@@ -2,14 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300&display=swap");
 
 .container {
+  padding: 1rem;
+  width: 15rem;
+  height: 120vh;
+  color: #ffff;
   background-color: #3f3c3c;
   display: flex;
   align-content: center;
+  justify-content: space-between;
   flex-direction: column;
-  padding: 1rem;
-  width: 15rem;
-  color: #ffff;
-  height: 150vh;
 }
 
 .logo {
@@ -18,14 +19,13 @@
   justify-content: center;
   flex-direction: column;
   align-content: center;
-  padding: 1rem;
   cursor: pointer;
 }
 
 .item_logo {
-  margin: 0 0.3rem 0 0.3rem;
+  margin: 0.5rem 0 1rem 0;
   font-family: "Mogra", cursive;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 40px;
   text-align: left;
@@ -51,6 +51,16 @@
   background: linear-gradient(224.53deg, #ff8a00 0%, #8000ff 99.2%);
   box-shadow: -1px 1px 8px rgba(128, 0, 255, 0.578726);
   border-radius: 4px;
+}
+
+.about{
+  font-size: 15px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #ffff;
+  cursor: pointer;
 }
 
 @media (max-width: 840px) {

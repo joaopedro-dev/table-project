@@ -4,7 +4,7 @@ function Foot() {
     return (
         <footer className={styles.footer}>
             <a>
-            COPYRIGHT @ 2019 Pixinvent, All rights Reserved
+            COPYRIGHT @ 2022 Table, All rights Reserved
             </a>
         </footer>
     )
