@@ -1,5 +1,6 @@
 import styles from '../../styles/components/Cards.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Cards(){
     return (
@@ -12,10 +13,12 @@ function Cards(){
                 <h3 className={styles.author}>Albert Einstein</h3>
             </div>
             <div className={styles.row}>
-                <div className={styles.card}>
+                <Link href="/register">
+                <a className={styles.card}>
                     <Image src="/call-center.png" alt="Logo" width={80} height={80} />
                     <p className={styles.text}>Tabular de forma rápida</p>
-                </div>
+                </a>
+                </Link>
                 <div className={styles.card_1}>
                     <Image src="/call-center-1.png" alt="Logo" width={80} height={80} />
                     <p className={styles.text}>Guia do Negociador</p>
