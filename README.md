@@ -1,5 +1,5 @@
 
-<h1 align="center">Call Center Solution</h1>
+<h1 align="center">Table Project</h1>
 
 <div align="center">
   <a href="https://www.techinterviewhandbook.org/">
