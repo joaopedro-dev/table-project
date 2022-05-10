@@ -14,11 +14,11 @@ function RegisterMenu() {
                 <div className={styles.row}>
                     <div className={styles.card}>
                         <Image src="/talking.png" alt="Logo" width={80} height={80} />
-                        <p className={styles.text}>Tabular de forma rápida</p>
+                        <p className={styles.text}>"Falei com Fulano"</p>
                     </div>
                     <div className={styles.card_1}>
                         <Image src="/king.png" alt="Logo" width={80} height={80} />
-                        <p className={styles.text}>Guia do Negociador</p>
+                        <p className={styles.text}>"Acordo Bom é Acordo Pago"</p>
                     </div>
                 </div>
             </div>
