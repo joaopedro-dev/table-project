@@ -2,6 +2,7 @@ import styles from "../../styles/RegistrarLigacao.module.css";
 import Navbar from "../../src/components/Navbar";
 import Head from "next/dist/shared/lib/head";
 import Foot from "../../src/components/Foot";
+import PrevCenter from "../../src/components/CallCenter";
 
 export default function Preventivo() {
   return (
@@ -13,7 +14,7 @@ export default function Preventivo() {
       </Head>
       <Navbar />
       <div className={styles.main}>
-        <h1 className={styles.title_dash}>Preventivo</h1>
+        <PrevCenter/>
         <Foot />
       </div>
     </div>

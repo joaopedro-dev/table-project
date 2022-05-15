@@ -5,14 +5,15 @@
   background-color: #F2F2F2;
 }
 .main{  
-  margin: 1rem;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   width: 100%;
 } 
 .title_dash{
+    display: flex;
+    align-items: flex-start;
     font-size: 30px;
     color: #3F3C3C;
     font-family: 'Kotta One', serif;

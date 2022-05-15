@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta&display=swap');
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    margin: 0 2rem 0 2rem;
+}
+
+.title{
+    font-family: 'Kotta One', serif;
+}
+
+.titleBox{
+    font-family: 'Enriqueta', serif;
+}
