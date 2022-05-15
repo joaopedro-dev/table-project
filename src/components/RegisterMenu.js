@@ -1,5 +1,6 @@
 import styles from '../../styles/components/RegisterMenu.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function RegisterMenu() {
     return (
@@ -16,10 +17,13 @@ function RegisterMenu() {
                         <Image src="/talking.png" alt="Logo" width={80} height={80} />
                         <p className={styles.text}>"Falei com Fulano"</p>
                     </div>
-                    <div className={styles.card_1}>
-                        <Image src="/king.png" alt="Logo" width={80} height={80} />
-                        <p className={styles.text}>"Acordo Bom é Acordo Pago"</p>
-                    </div>
+
+                    <Link href="/register/preventivo">
+                        <a className={styles.card_1}>
+                            <Image src="/king.png" alt="Logo" width={80} height={80} />
+                            <p className={styles.text}>"Acordo Bom é Acordo Pago"</p>
+                        </a>
+                    </Link>       
                 </div>
             </div>
         </div>
