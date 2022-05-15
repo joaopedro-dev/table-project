@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
+
+.container{
+  display: flex;
+  background-color: #F2F2F2;
+}
+.main{  
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+} 
+.title_dash{
+    font-size: 30px;
+    color: #3F3C3C;
+    font-family: 'Kotta One', serif;
+}

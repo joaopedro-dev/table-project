@@ -21,7 +21,11 @@ function Navbar() {
                 </Link>
                 <p className={styles.item}>Cliente</p>
                 <p className={styles.item}>Terceiro</p>
-                <p className={styles.item}>Preventivo</p>
+                <Link href="/register/preventivo">
+                    <a className={styles.item}>
+                        Preventivo
+                    </a>
+                </Link>
             </div>
             <div>
                 <a className={styles.about}>About us</a>

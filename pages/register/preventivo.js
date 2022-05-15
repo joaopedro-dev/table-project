@@ -1,10 +1,9 @@
-import styles from "../styles/Home.module.css";
-import Navbar from "../src/components/Navbar";
+import styles from "../../styles/RegistrarLigacao.module.css";
+import Navbar from "../../src/components/Navbar";
 import Head from "next/dist/shared/lib/head";
-import RegisterMenu from "../src/components/RegisterMenu";
-import Foot from "../src/components/Foot";
+import Foot from "../../src/components/Foot";
 
-export default function Register() {
+export default function Preventivo() {
   return (
     <div className={styles.container}>
       <Head>
@@ -14,10 +13,9 @@ export default function Register() {
       </Head>
       <Navbar />
       <div className={styles.main}>
-        <h1 className={styles.title_dash}>Registrar Ligação !</h1>
-        <RegisterMenu />
+        <h1 className={styles.title_dash}>Preventivo</h1>
         <Foot />
       </div>
     </div>
-  );
+  );    
 }
